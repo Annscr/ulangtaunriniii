@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8"/>
+  <meta content="width=device-width, initial-scale=1, user-scalable=1, minimum-scale=1, maximum-scale=5" name="viewport"/>
+  <meta content="IE=edge" http-equiv="X-UA-Compatible"/>
+
+  <!-- Font Google -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Quicksand&display=swap" rel="stylesheet">
+
+  <!-- SweetAlert2 -->
+  <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11.0.19/dist/sweetalert2.all.min.js"></script>
+
+  <!-- File Lokal -->
+  <link href="style.css" rel="stylesheet" type="text/css" />
+  <script src="script.js" defer></script>
+  
+  <title>Piibesdayyy</title>
+</head>
+<body>
+
+  <!-- Gambar Background -->
+  <div id="bodyblur">
+    <img src="images/background.jpg" width="100%" height="100%" />
+  </div>
+
+  <!-- Konten Utama -->
+  <div id="Content">
+    <div class="image">
+      <img src="images/gambar.jpg" width="130px" height="130px" />
+    </div>
+    <div>
+      <blockquote>
+        <p id="text"></p>
+        <p id="text2"></p>
+      </blockquote>
+
+      <!-- TOMBOL MUSIK -->
+      <div class="music-control">
+        <button id="playMusic">▶ Putar Musik</button>
+      </div>
+
+      <audio id="bgMusic" src="lagu.mp3"></audio>
+    </div>
+  </div>
+
+</body>
+</html>

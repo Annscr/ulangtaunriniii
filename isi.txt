@@ -1,0 +1,12 @@
+project-folder/
+├── index.html
+├── style.css
+├── script.js
+└── images/
+    ├── background.jpg
+    ├── peachcat.gif
+    ├── bear-cute-1.gif
+    ├── yyy.gif
+    ├── peach-goma.gif
+    ├── tepukbadan.gif
+    ├── gigit.gif
